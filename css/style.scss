@@ -1,0 +1,164 @@
+
+$TextColor:#3b0002;
+$SubTextColor:#8d7062;
+$SubTextLightColor:#c8b8ac;
+$DiferentColor:#920003;
+$DiferentLightColor:#e9b4a3;
+
+html,body{
+	margin:0%;
+	padding:0%;
+	height:100%;
+	width:100%;	
+}
+
+@font-face {
+    font-family: indian;
+    src: url("font/bitsindiancalligra-Regular.ttf");
+}
+@font-face {
+    font-family: indian;
+    src: url("font/bitsindiancalligra-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: indian;
+    src: url("font/bitsindiancalligra-Italic.ttf");
+    font-style: italic;
+}
+
+#logo{
+	font-family: indian;
+	font-weight: bold;
+	font-style: italic;	
+  font-size: 50px;
+	color:white;
+}
+
+.navbarDesign{
+   background-color: $DiferentColor;
+}
+
+section{
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+
+
+footer{
+background-color:$DiferentColor;
+width:100%;
+height:500px;
+display:block;
+color: white;
+padding-top: 20px;
+
+	
+}
+.row{
+  margin-top: 10px;
+}
+
+#head {
+    background-image:url("img/spice.jpg");
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 200px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 70px;
+    margin-top: 100px;
+    p{
+      text-shadow: 2px 2px 3px $DiferentColor;
+    }
+}
+.TargetDiv{
+display: flex;
+flex-direction: row; //| row-reverse | row | column-reverse;
+margin-top:5%;  
+}
+
+.btn-Bodocitta{
+
+ background-color: $DiferentColor;
+ border-color:  $DiferentColor;
+ color:white;
+    &:hover{
+        background-color: $DiferentLightColor;
+         border-color:  $DiferentLightColor;
+         color:white;
+    }
+  
+}
+.dropdown-item{
+  &:focus{
+    background-color: $DiferentColor;
+  }
+  &:hover{
+    background-color: $DiferentLightColor;
+  }
+  
+  
+}
+
+.img-cards {
+    width: 100%; // how much you want
+   max-height: 180px;
+ 
+}
+.column{
+  padding: 5px;
+}
+.menu-link{
+  color: white;
+  &:hover{
+     color: $SubTextLightColor;
+  }
+}
+.menu-toggler{
+  color: white;
+}
+.button-link{
+  color:$TextColor;
+ 
+  &:hover{
+    color: white;
+    background-color: $DiferentLightColor;
+  }
+  &.active{
+    background-color: $DiferentColor!important;
+  }
+
+}
+.margin-cosas{
+  margin-bottom: 80px;
+}
+.margin-cosas2{
+  margin-top: 120px;
+}
+.sobremi{
+  color:$DiferentColor;
+  font-weight: bold;
+}
+iframe {
+  width: 100%;
+  height:300px;
+}
+#accordion{
+  .card-header{
+    background-color: $DiferentColor;
+    border: none;
+    .btn-link{
+      color:white;
+
+    }
+  }
+
+}
+#myTab{
+  .nav-link{
+    color: $DiferentColor;
+  }
+}
